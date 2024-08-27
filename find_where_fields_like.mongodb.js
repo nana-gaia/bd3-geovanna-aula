@@ -8,4 +8,7 @@ const collection ='Livraria';
 use(database);
 
 /* SELECIONA TODOS OS REGISTROS DA COLEÇAO: */
-db[collection].find()
+db[collection].find(
+    {"descricao":/robôs/i},
+    {"_id":0, "codigo":0,}
+)

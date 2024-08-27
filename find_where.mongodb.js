@@ -8,4 +8,4 @@ const collection ='Livraria';
 use(database);
 
 /* SELECIONA TODOS OS REGISTROS DA COLEÇAO: */
-db[collection].find()
+db[collection].find({"categoria":"Ficção Científica"})
