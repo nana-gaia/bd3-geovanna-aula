@@ -7,5 +7,8 @@ const collection ='Livraria';
 /* CRIAR OU ACESSAR O BANCO DE DADOS */
 use(database);
 
-/* SELECIONA TODOS OS REGISTROS DA COLEÇAO: */
-db[collection].find({"autor":"Isaac Asimov"})
+/* ALTERA OS DADOS DE UM DOCUMENTO DA COLLECTION */
+db[collection].updateMany(
+    {autor:'J.R.R Tolkien'},
+    { $set:{autor:'Jhon Ronald Reuel Tolkien'}}
+);
