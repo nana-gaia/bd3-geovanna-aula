@@ -1,6 +1,6 @@
 const database ='BD3-GEOVANNA-AULA';
 
-const collection = 'Livraria';
+const collection = 'LIVRARIA';
 
 use(database);
 
@@ -71,13 +71,10 @@ db[collection].insertMany(
         "categoria":"Fantasia Heroica"
       },
       {
-        "codigo":"9",
-        "titulo": "O Senho dos anéis: O Retorno do Rei",
-        "autor": "J.R.R Tolkien",
-        "descricao":"Sauron planeja um grande ataque a Minas Tirith, capital de Gondor, o que faz com que Gandalf e Pippin partam para o local na intenção de ajudar a resistência. Frodo, Sam e Gollum seguem sua viagem rumo à Montanha da Perdição para destruir o anel.",
-        "imagem":"/livros/retorno_rei.jpg",
-        "valor": 120,
-        "categoria":"Fantasia Heroica"
-      }
+        "Aluno": "Geovanna Caroline de souza gaia",
+        "curso": "desenvolvimento de sistemas",
+        "período" : "noite",
+        "modulo": "3º"
+      },
 ]
 );

@@ -1,7 +1,7 @@
 /* NOME DO BANCO DE DADOS */
 const database ='BD3-GEOVANNA-AULA';
 
-const collection = 'Livraria';
+const collection = 'LIVRARIA';
 
 use(database);
 
